@@ -30,7 +30,11 @@ void Bullet::SetPool(std::list<GameObject *> *tilePool)
 
 bool Bullet::Collision()
 {
-	/*for (auto object : *tilePool)
+	/*std::list<GameObject*>::iterator iterador;
+
+	std::list< std::list<GameObject*>::iterator > iteratorList;
+
+	for (auto object : *tilePool)
 	{
 		if (Collision::BoxCollision(positionX, positionY, image->GetWidth(), image->GetHeight(),
 			object->GetPositionX(), object->GetPositionY(), 32, 32))

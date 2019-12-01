@@ -58,8 +58,6 @@ void HeavyTank::Shoot()
 void HeavyTank::Update()
 {
 
-	Shoot();
-
 	positionX += (float)cos((angle * M_PI) / 180) * 2.0;
 	positionY += (float)sin((angle * M_PI) / 180) * 2.0;
 	
@@ -86,6 +84,7 @@ void HeavyTank:: Draw()
 {
 	if (energy > 0)
 	{
+		Shoot();
 		platform->RenderImage(image, positionX, positionY, angle);
 	}
 }

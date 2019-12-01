@@ -1,2 +1,20 @@
-﻿  Game.cpp
+﻿  Bullet.cpp
+c:\users\carlo\desktop\tank-master\tank\bullet.cpp(7): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\carlo\desktop\tank-master\tank\bullet.cpp(8): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\carlo\desktop\tank-master\tank\bullet.cpp(50): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Game.cpp
+  HeavyTank.cpp
+c:\users\carlo\desktop\tank-master\tank\heavytank.cpp(48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\carlo\desktop\tank-master\tank\heavytank.cpp(61): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\carlo\desktop\tank-master\tank\heavytank.cpp(62): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\carlo\desktop\tank-master\tank\heavytank.cpp(68): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\carlo\desktop\tank-master\tank\heavytank.cpp(80): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\carlo\desktop\tank-master\tank\heavytank.cpp(88): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\carlo\desktop\tank-master\tank\heavytank.cpp(96): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\carlo\desktop\tank-master\tank\heavytank.cpp(109): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Map.cpp
+  Menu.cpp
+  Platform.cpp
+  main.cpp
+  Generating Code...
   Tank.vcxproj -> C:\Users\Carlo\Desktop\Tank-master\Debug\Tank.exe

@@ -21,4 +21,3 @@ public:
 	void Update() override;
 	void Close() override;
 };
-
